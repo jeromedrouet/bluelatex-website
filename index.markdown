@@ -1,14 +1,14 @@
 ---
 layout: default
-Title: \BlueLaTeX
+Title: Welcome!
 ---
 \BlueLaTeX aims to provide an tool chain to easily write documents collaboratively.
 
 The first intended audience is the academic world, by integrating concepts and lifecycles particularly well-suited for these kind of documents, but it can be used for any purpose.
 
-**TODO**
+\BlueLaTeX is still in beta version and not intended for production yet. Any [feedback](contact/) is welcome to help it making a great application!
 
- - Installation guide,
- - Roadmap,
- - Contact,
- - FAQ
+ - [Install \BlueLaTeX](/installation/)
+ - [Configure \BlueLaTeX](/configuration/)
+ - [Roadmap](/roadmap/)
+ - [Contact us](/contact/)
