@@ -8,7 +8,9 @@ The first intended audience is the academic world, by integrating concepts and l
 
 \BlueLaTeX is still in beta version and not intended for production yet. Any [feedback](contact/) is welcome to help it making a great application!
 
+ - [Download \BlueLaTeX](/download/)
  - [Install \BlueLaTeX](/installation/)
  - [Configure \BlueLaTeX](/configuration/)
  - [Roadmap](/roadmap/)
+ - [Developer Corner](/developers/)
  - [Contact us](/contact/)

@@ -20,7 +20,12 @@
 
         {% include header.html %}
 
-        {% include menu.html %}
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/gnieh/bluelatex/releases/download/v1.0.0-M1/bluelatex-1.0.0-M1.tgz" id="download-tar-gz" class="button"><span>v1.0.0-M1 Binaries</span></a>
+          <a href="https://github.com/gnieh/bluelatex" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr />
 
         <section id="main_content">
         {{ content }}
