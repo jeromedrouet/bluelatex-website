@@ -27,7 +27,8 @@ On Unix you will need [jsvc](http://commons.apache.org/proper/commons-daemon/jsv
 
 The launcher is packaged in the `bin` directory as `blue-launcher.jar`.
 To start it with jsvc, type e.g.:
-```sh
+
+~~~ shell
 /usr/bin/jsvc \
   -wait 10 \
   -java-home /usr/lib/jvm/default-java \
@@ -38,7 +39,7 @@ To start it with jsvc, type e.g.:
   -outfile /tmp/bluelatex.out \
   -errfile /tmp/bluelatex.err \
   org.gnieh.blue.launcher.Main
-```
+~~~
 
 The options to pass to jsvc depends on where you installed your \BlueLaTeX instance and of your jsvc version.
 Please refer to the [jsvc documentation](http://commons.apache.org/proper/commons-daemon/jsvc.html) for more details.
@@ -46,7 +47,8 @@ Please refer to the [jsvc documentation](http://commons.apache.org/proper/common
 For Windows users, any help to document how it works with procrun is welcome. Do not hesitate to open a [pull request](https://github.com/gnieh/bluelatex-website/compare/) to propose the documentation.
 
 Stopping the daemon with jsvc is quite similar to starting it:
-```sh
+
+~~~ shell
 /usr/bin/jsvc \
   -wait 10 \
   -java-home /usr/lib/jvm/default-java \
@@ -56,7 +58,7 @@ Stopping the daemon with jsvc is quite similar to starting it:
   -pidfile /var/run/bluelated.pid \
   -stop \
   org.gnieh.blue.launcher.Main
-```
+~~~
 
 Starting \BlueLaTeX with systemd
 --------------------------------
