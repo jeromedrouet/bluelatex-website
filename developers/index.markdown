@@ -4,6 +4,10 @@ Title: Developer Corner
 ---
 
 # Setting Up your Development Environment
+{:.no_toc}
+
+* Contents
+{:toc}
 
 \BlueLaTeX is built using [sbt](http://www.scala-sbt.org/), so you obviously need to have it installed. This is written in scala but you only need a jvm installed, as all dependencies, including the correct scala compiler and library version will be managed by sbt.
 
