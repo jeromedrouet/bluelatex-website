@@ -151,6 +151,11 @@ mail {
     # the smtp server port
     port = 25
 
+    # additional configuration keys specific to \BlueLaTeX
+    # when a user and a password are required by the smtp server
+    # user = username
+    # password = my_password
+
   }
 
   # the address from which users receive emails
