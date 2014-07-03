@@ -11,20 +11,20 @@ Title: Developer Corner
 
 To start working on \BlueLaTeX, you will need to execute these commands:
 
-~~~ shell
+```shell
 $ git clone git@github.com:gnieh/bluelatex.git
 $ cd bluelatex
 $ sbt
 > compile
-~~~
+```
 
 This will download all necessary dependencies, compile the entire project and should simply work.
 
 Sbt has a great feature for incremental compilation, you can simply launch the command prefixed with a `~`
 
-~~~ shell
+```shell
 > ~compile
-~~~
+```
 
 And incremental compilation will be launched every time a file changes in the source tree.
 
@@ -34,9 +34,9 @@ The sbt configuration of \BlueLaTeX allows you to start a test instance of the s
 
 in the sbt console just type:
 
-~~~ shell
+```shell
 > blueStart
-~~~
+```
 
 The application will be packaged and the test couchdb and \BlueLaTeX servers will be started. You can then access the web application by going to [http://localhost:18080/web/](http://localhost:18080/web/).
 
@@ -44,9 +44,9 @@ The rationale behind starting our own couchdb instance is that integration tests
 
 To stop the test server just type:
 
-~~~ shell
+```shell
 > blueStop
-~~~
+```
 
 When stopping the test server, the couchdb server is stopped as well and its data are cleaned up. Hence whenever you restart the server, you start with an empty database.
 Once again this well adapted is for automatic tests.
@@ -57,11 +57,11 @@ It is possible to override default settings by creating a local `build.sbt` file
 
 For example, let's say you don't want to start a custom couchdb instance, but use the system one instead. You just need to add these lines in your build.sbt file:
 
-~~~ scala
+```scala
 couchdb := None
 
 couchPort := 5984
-~~~
+```
 
 **Note** it is important to have a [blank line between all commands in this sbt file](http://www.scala-sbt.org/release/docs/Getting-Started/Basic-Def.html#how-build-sbt-defines-settings), forgetting it may lead to some strange behaviors and headaches.
 
@@ -75,15 +75,15 @@ Every time you change a setting, you must either execute the `reload` command in
 
 Starting at some version of jsvc, it is required to invoke the command with full path and an explicit working directory. If you are in this case and see the following error message:
 
-~~~
+```
 JSVC re-exec requires execution with an absolute or relative path
-~~~
+```
 
 you will have to add this line in your `build.sbt`
 
-~~~ scala
+```scala
 launchExe := "/usr/bin/jsvc"
-~~~
+```
 
 Or whatever path is returned by `which jsvc`
 
@@ -91,16 +91,16 @@ Or whatever path is returned by `which jsvc`
 
 If the `blueStart` command was correctly executed but you cannot connect to the server. Have a look at content of file `/tmp/bluelatex.err`. If you see this line in it:
 
-~~~
+```
 No config.properties found.
-~~~
+```
 
 It means that you have a version of jsvc that requires setting explicitly the working directory.
 Once again this can be solved by overriding the setting key configuring the start options in `build.sbt`:
 
-~~~ scala
+```scala
 startOptions <<= (startOptions, bluePack) map { (opt, pack) => "-cwd" :: pack.getCanonicalPath :: opt }
-~~~
+```
 
 
 This line is a bit more complex than the previous ones but just says: the value of the `startOptions` setting key is whatever its value was **plus** the option `-cwd` followed by the full path of where the application was packaged.

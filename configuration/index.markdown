@@ -24,7 +24,7 @@ Below is detailed the configuration of each standard bundle.
 Common Bundle `org.gnieh.blue.common`
 -------------------------------------
 
-~~~ scala
+```scala
 http {
 
   # the port the http server listens to
@@ -211,4 +211,4 @@ couch {
   }
 
 }
-~~~
+```
