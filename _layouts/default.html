@@ -3,37 +3,35 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
-    <link rel="icon" type="image/png" href="/images/favicon.png">
+
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
     <title>\BlueLaTeX {{ page.title }}</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        {% include header.html %}
+    {% include header.html %}
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/gnieh/bluelatex/releases/download/v1.0.0-M1/bluelatex-1.0.0-M1.tgz" id="download-tar-gz" class="button"><span>v1.0.0-M1 Binaries</span></a>
-          <a href="https://github.com/gnieh/bluelatex" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
 
-        <hr />
+          {{ content }}
 
-        <section id="main_content">
-        {{ content }}
         </section>
 
         {% include footer.html %}
 
       </div>
     </div>
+
   </body>
 </html>
