@@ -3,6 +3,9 @@ layout: default
 Title: Installation
 ---
 
+Installation and Start
+======================
+
 Dependencies
 ------------
 
@@ -10,6 +13,7 @@ Dependencies
 
  - The server being written in Scala you will need a JVM in version 1.7 or higher,
  - Users and paper data are saved in a [couchdb](http://couchdb.apache.org) database version 1.2.0 or higher,
+ - You will also need to have access to an smtp server to validate user registrations, so you might need to install one on your server if you do not want ot use an external one,
  - Finally if you want to compile \LaTeX documents, you will need a \LaTeX distribution installed on your system. [TeX Live](https://www.tug.org/texlive/) is probably the best choice for Unix systems, and [MiKTeX](http://miktex.org/) for Windows.
 
 Binary Installation
@@ -28,7 +32,7 @@ On Unix you will need [jsvc](http://commons.apache.org/proper/commons-daemon/jsv
 The launcher is packaged in the `bin` directory as `blue-launcher.jar`.
 To start it with jsvc, type e.g.:
 
-``` shell
+```shell
 /usr/bin/jsvc \
   -wait 10 \
   -java-home /usr/lib/jvm/default-java \
@@ -48,7 +52,7 @@ For Windows users, any help to document how it works with procrun is welcome. Do
 
 Stopping the daemon with jsvc is quite similar to starting it:
 
-``` shell
+```shell
 /usr/bin/jsvc \
   -wait 10 \
   -java-home /usr/lib/jvm/default-java \
