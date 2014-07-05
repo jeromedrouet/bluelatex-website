@@ -3,6 +3,12 @@ layout: default
 Title: Configuration
 ---
 
+\BlueLaTeX Configuration
+========================
+
+* Contents
+{:toc}
+
 Configuration File Layout
 -------------------------
 
