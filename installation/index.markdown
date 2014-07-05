@@ -30,7 +30,7 @@ If you want to use the launcher to start \BlueLaTeX as a daemon, you need to hav
 On Unix you will need [jsvc](http://commons.apache.org/proper/commons-daemon/jsvc.html), for Windows [procrun](http://commons.apache.org/proper/commons-daemon/procrun.html).
 
 The launcher is packaged in the `bin` directory as `blue-launcher.jar`.
-To start it with jsvc, type e.g.:
+Let's say you installed \BlueLaTeX and put the [configuration](/configuration/) in `/opt/bluelatex`, to start it you would simply type:
 
 ```shell
 /usr/bin/jsvc \
