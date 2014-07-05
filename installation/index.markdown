@@ -37,7 +37,7 @@ Let's say you installed \BlueLaTeX and put the [configuration](/configuration/) 
   -wait 10 \
   -java-home /usr/lib/jvm/default-java \
   -cwd /opt/bluelatex
-  -cp bin/famework.jar:bin/launcher.jar:bin/commons-daemon.jar \
+  -cp bin/blue-launcher.jar \
   -user bluelatex \
   -pidfile /var/run/bluelated.pid \
   -outfile /tmp/bluelatex.out \
@@ -57,7 +57,7 @@ Stopping the daemon with jsvc is quite similar to starting it:
   -wait 10 \
   -java-home /usr/lib/jvm/default-java \
   -cwd /opt/bluelatex
-  -cp bin/famework.jar:bin/launcher.jar:bin/commons-daemon.jar \
+  -cp bin/blue-launcher.jar \
   -user bluelatex \
   -pidfile /var/run/bluelated.pid \
   -stop \
