@@ -17,7 +17,7 @@ The configuration of each bundle is made in its own directory, with respect to t
 
 The directory layout for configuration files is organized under one directory for each bundle.
 The directory in which the configuration of a bundle lies is simply the bundle identifier.
-Standard bundles are:
+Standard bundles directories are:
 
  - `org.gnieh.blue.common` the common utility bundle (http server, database configuration, ...),
  - `org.gnieh.blue.core` the core \BlueLaTeX features (user management, paper management, ...),
@@ -25,7 +25,8 @@ Standard bundles are:
  - `org.gnieh.blue.compile` the \LaTeX compilation bundle,
  - `org.gnieh.blue.web` the standard web client.
 
-Below is detailed the configuration of each standard bundle.
+The configuration file format used is [HOCON](https://github.com/typesafehub/config/blob/master/HOCON.md).
+We detail below the default configuration of each standard bundle. Any configuration key may be overridden by placing a file named `application.conf` in the bundle configuration directory.
 
 Common Bundle `org.gnieh.blue.common`
 -------------------------------------
