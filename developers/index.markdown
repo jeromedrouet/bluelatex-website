@@ -99,6 +99,7 @@ If the `blueStart` command was correctly executed but you cannot connect to the 
 No config.properties found.
 ```
 or
+
 ```
 ERROR: Unable to create cache directory: ./felix-cache
 ERROR: Error creating bundle cache. (java.lang.RuntimeException: Unable to create cache directory.)
