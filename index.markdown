@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to \BlueLaTeX!
+title: Welcome!
 ---
 \BlueLaTeX aims to provide an tool chain to easily write documents collaboratively.
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: \BlueLaTeX Roadmap
+title: Roadmap
 ---
 
 \BlueLaTeX Roadmap
