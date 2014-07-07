@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Installation
+title: Installation
 ---
 
 Installation and Start

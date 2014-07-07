@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Download
+title: Download
 ---
 
 Download Center

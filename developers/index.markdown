@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Developer Corner
+title: Developer Corner
 ---
 
 # Setting Up your Development Environment

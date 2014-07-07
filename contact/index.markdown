@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Contact Us
+title: Contact Us
 ---
 
 \BlueLaTeX Users

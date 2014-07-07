@@ -1,6 +1,6 @@
 ---
 layout: default
-Title: Configuration
+title: Configuration
 ---
 
 \BlueLaTeX Configuration
