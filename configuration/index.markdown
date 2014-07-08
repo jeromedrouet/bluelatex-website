@@ -92,7 +92,7 @@ blue {
 
     # the prefix of this \BlueLaTeX installation
     # if it is installed at the root of the domain, then leave this string empty
-    path-prefix = ""
+    path-prefix = "api"
 
   }
 
@@ -291,7 +291,9 @@ blue {
   client {
 
     # prefix where the web application is located
-    path-prefix = web
+    # an empty prefix means that the web client is accessed at the root of the
+    # host.
+    path-prefix = ""
 
   }
 

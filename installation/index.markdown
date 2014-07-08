@@ -48,7 +48,7 @@ Let's say you installed \BlueLaTeX and put the [configuration](/configuration/) 
 The options to pass to jsvc depends on where you installed your \BlueLaTeX instance and of your jsvc version.
 Please refer to the [jsvc documentation](http://commons.apache.org/proper/commons-daemon/jsvc.html) for more details.
 
-Once the server is started, you may access the web client at (by default): [http://localhost:18080/web/](http://localhost:18080/web/)
+Once the server is started, you may access the web client at (by default): [http://localhost:18080/](http://localhost:18080/)
 
 For Windows users, any help to document how it works with procrun is welcome. Do not hesitate to open a [pull request](https://github.com/gnieh/bluelatex-website/compare/) to propose the documentation.
 
