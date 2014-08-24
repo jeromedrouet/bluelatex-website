@@ -12,7 +12,7 @@ If you want to contact us to ask any question, give feedback, you can:
  - Join us on irc on channel [#bluelatex@freenode](https://kiwiirc.com/client/irc.freenode.net/bluelatex),
  - Subscribe and send us an email on [blue-users@lists.gnieh.org](http://lists.gnieh.org/mailman/listinfo/blue-users) ([Archives](http://lists.gnieh.org/pipermail/blue-users/)).
 
-If you find any problem, you can either us or [file a ticket](https://github.com/gnieh/bluelatex/issues/new).
+If you find any problem, you can either contact us or [file a ticket](https://github.com/gnieh/bluelatex/issues/new).
 
 Contribute
 ----------

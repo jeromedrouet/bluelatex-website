@@ -16,7 +16,7 @@ Let's say you installed \BlueLaTeX using the installation script, you can run th
 $ bluelatex-dir/init/jsvc/blue-start.sh
 ```
 
-The options to pass to jsvc depends on where you installed your \BlueLaTeX instance and of your jsvc version.
+The options to pass to jsvc depend on where you installed your \BlueLaTeX instance and of your jsvc version.
 Please refer to the [jsvc documentation](http://commons.apache.org/proper/commons-daemon/jsvc.html) for more details.
 
 Once the server is started, you may access the web client at (by default): [http://localhost:8080/](http://localhost:8080/)
