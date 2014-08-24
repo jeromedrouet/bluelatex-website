@@ -11,7 +11,11 @@ The first intended audience is the academic world, by integrating concepts and l
 News
 ====
 
-The \BlueLaTeX v1.0.0-M2 has been released. See the [release notes](https://github.com/gnieh/bluelatex/releases/tag/v1.0.0-M2) to learn more.
+{% for post in site.posts limit:5 %}
+<li class="post">
+  <a href="{{ post.url }}">{{ post.title }}</a> <span class="light">(published on {{ post.date }})</span>
+</li>
+{% endfor %}
 
 Try it Out!
 ===========
@@ -26,6 +30,8 @@ Contents
  - [Download \BlueLaTeX](/download/)
  - [Install \BlueLaTeX](/installation/)
  - [Configure \BlueLaTeX](/configuration/)
+ - [Run \BlueLaTeX](/running/)
+ - [Blog](/blog/)
  - [Roadmap](/roadmap/)
  - [Developer Corner](/developers/)
  - [Contact us](/contact/)
