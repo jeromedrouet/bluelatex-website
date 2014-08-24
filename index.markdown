@@ -6,7 +6,7 @@ title: Welcome!
 
 The first intended audience of \BlueLaTeX is the academic world (for now!), by integrating concepts and lifecycles particularly well-suited for these kind of documents, but it can be used for any other kind of document.
 
-\BlueLaTeX is still in beta version and not intended for production yet. Any [feedback](contact/) is welcome to help it making a great application!
+\BlueLaTeX is still in beta version and not intended for production yet. Any [feedback](community/) is welcome to help it making a great application!
 
 News
 ====
@@ -34,4 +34,4 @@ Contents
  - [Blog](/blog/)
  - [Roadmap](/roadmap/)
  - [Developer Corner](/developers/)
- - [Contact us](/contact/)
+ - [Community & Contributions](/community/)

@@ -25,4 +25,4 @@ For the next version the currently planned features include:
  - VCS integration,
  - more to come...
 
-Any suggestion is welcome, you can [contact us](/contact/).
+Any suggestion is welcome, you can [contact us](/community/).
