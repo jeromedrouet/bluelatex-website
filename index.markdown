@@ -29,6 +29,7 @@ You can create a test account and try it out at <http://demo.bluelatex.org>.
 Contents
 ========
 
+ - [Features and Advantages](/features/)
  - [Download \BlueLaTeX](/download/)
  - [Install \BlueLaTeX](/installation/)
  - [Configure \BlueLaTeX](/configuration/)
