@@ -15,7 +15,7 @@ News
 
 {% for post in site.posts limit:5 %}
 <li class="post">
-  <a href="{{ post.url }}">{{ post.title }}</a> <span class="light">(published on {{ post.date }})</span>
+  <a href="{{ post.url }}">{{ post.title }}</a> <span class="light">(published on {{ post.date | date: "%-d %B %Y" }})</span>
 </li>
 {% endfor %}
 
