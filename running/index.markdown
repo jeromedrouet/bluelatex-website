@@ -12,6 +12,7 @@ On Unix you will need [jsvc](http://commons.apache.org/proper/commons-daemon/jsv
 The launcher is packaged in the `bin` directory as `blue-launcher.jar`.
 
 Let's say you installed \BlueLaTeX using the installation script, you can run the script provided in the distribution by running:
+
 ```shell
 $ bluelatex-dir/init/jsvc/blue-start.sh
 ```
