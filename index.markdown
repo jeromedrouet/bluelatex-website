@@ -25,17 +25,3 @@ Try it Out!
 You can create a test account and try it out at <http://demo.bluelatex.org>.
 
 **Note**: This reflect the current state of \BlueLaTeX and is not production-ready. Accounts may be deleted at any time, and papers may be deleted as well.
-
-Contents
-========
-
- - [Features and Advantages](/features/)
- - [Download \BlueLaTeX](/download/)
- - [Install \BlueLaTeX](/installation/)
- - [Configure \BlueLaTeX](/configuration/)
- - [Run \BlueLaTeX](/running/)
- - [Blog](/blog/)
- - [Roadmap](/roadmap/)
- - [Server API](/api/)
- - [Developer Corner](/developers/)
- - [Community & Contributions](/community/)
