@@ -36,5 +36,6 @@ Contents
  - [Run \BlueLaTeX](/running/)
  - [Blog](/blog/)
  - [Roadmap](/roadmap/)
+ - [Server API](/api/)
  - [Developer Corner](/developers/)
  - [Community & Contributions](/community/)
