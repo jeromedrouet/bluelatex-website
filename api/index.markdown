@@ -34,6 +34,31 @@ In case of an error, a json error object is returned with the appropriate HTTP r
 }
 ```
 
+## Sessions
+
+**For now, only cookie sessions are supported.**
+
+A client wishing to access the API must be authenticated for most of the operations (see the documentation for more details on what operation needs what permission).
+An example session using curl looks like this:
+
+```
+USERNAME='test'
+PASSWORD='my secret'
+
+API_URL='http://localhost:8080/api'
+
+# log into \Blue and save the cookie
+curl --cookie /tmp/bluelatex.cookie -d "username=$USERNAME&password=$PASSWORD" $API_URL/session
+
+# then query the list of papers for my logged in user
+curl --cookie /tmp/bluelatex.cookie $API_URL/users/$USERNAME/papers
+
+# each time you issue a request you must send the cookie, which is donne by using the --cookie option
+
+# and logout
+curl -X DELETE --cookie /tmp/bluelatex.cookie $API_URL/session
+```
+
 ## Synchronization Protocol
 
 The synchronization protocol is based on [mobwrite](http://code.google.com/p/google-mobwrite) and was adapted to integrate more smoothly in our JSON based API.
