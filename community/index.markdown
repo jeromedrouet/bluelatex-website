@@ -14,6 +14,12 @@ If you want to contact us to ask any question, give feedback, you can:
 
 If you find any problem, you can either contact us or [file a ticket](https://github.com/gnieh/bluelatex/issues/new).
 
+Social Media
+------------
+
+We have a twitter account where we make announces. You can follow us [@BlueLaTeX\_team](https://twitter.com/BlueLaTeX_team).
+We are also present on [Google+](https://plus.google.com/111161219722510797754/posts).
+
 Contribute
 ----------
 
