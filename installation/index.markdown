@@ -12,7 +12,7 @@ Dependencies
 \BlueLaTeX requires several dependencies to run:
 
  - The server being written in Scala you will need a JVM (version 1.7 or higher for the binary distribution, 1.6 or higher if you build it from source),
- - Users and paper data are saved in a [couchdb](http://couchdb.apache.org) database version 1.2.0 or higher,
+ - Users and paper data are saved in a [couchdb](http://couchdb.apache.org) database version 1.4.0 or higher,
  - You will also need to have access to a SMTP server to validate user registrations, so you might need to install one on your server if you do not want to use an external one,
  - Finally if you want to compile \LaTeX documents, you will need a \LaTeX distribution installed on your system. [TeX Live](https://www.tug.org/texlive/) is probably the best choice for Unix systems, and [MiKTeX](http://miktex.org/) for Windows.
 
