@@ -13,8 +13,8 @@ Features
 --------
 
 \BlueLaTeX provides a full-featured server that allows you to create, manage and collaboratively edit documents written in \LaTeX.
-A web client is also provided to use the features provided by the server directly in your browser.
-A Restful API exposes all possible operations that can be performed on the server side, which makes it possible to use any editor that can communicate with this API.
+A web client is also provided to use the features served by the server directly in your browser.
+A Restful API exposes all possible operations that can be performed on the server side, which makes it possible to use any editor that can communicate with this API (basically any editor that can issue HTTP requests) to become a \BlueLaTeX client.
 
 The current \BlueLaTeX server provides following services:
 
