@@ -30,6 +30,11 @@ We also package \BlueLaTeX for some Linux distributions.
  - ![CentOS logo](/images/centos.png) [CentOS 7 binary rpm](http://ares.ptitoliv.net/bluelatex/bluelatex-1.0.0-1.el7.centos.x86_64.rpm)
  - ![CentOS logo](/images/centos.png) [CentOS 7 source rpm](http://ares.ptitoliv.net/bluelatex/bluelatex-1.0.0-1.el7.centos.src.rpm)
 
+Docker Image
+------------
+
+A test [docker](https://www.docker.com/) image is available for \BlueLaTeX on the [docker hub](https://registry.hub.docker.com/u/ptitoliv/bluelatex-docker/).
+
 From Master
 -----------
 
