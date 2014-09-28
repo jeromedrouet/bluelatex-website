@@ -42,7 +42,7 @@ We also package \BlueLaTeX for some Linux distributions.
 Docker Image
 ------------
 
-A test [docker](https://www.docker.com/) image is available for \BlueLaTeX on the [docker hub](https://registry.hub.docker.com/u/ptitoliv/bluelatex-docker/).
+A test [docker](https://www.docker.com/) image is available for \BlueLaTeX on the [docker hub](https://registry.hub.docker.com/u/ptitoliv/bluelatex/).
 
 From Master
 -----------
