@@ -48,7 +48,7 @@ PASSWORD='my secret'
 API_URL='http://localhost:8080/api'
 
 # log into \Blue and save the cookie
-curl --cookie /tmp/bluelatex.cookie -d "username=$USERNAME&password=$PASSWORD" $API_URL/session
+curl -c /tmp/bluelatex.cookie -d "username=$USERNAME&password=$PASSWORD" $API_URL/session
 
 # then query the list of papers for my logged in user
 curl --cookie /tmp/bluelatex.cookie $API_URL/users/$USERNAME/papers
