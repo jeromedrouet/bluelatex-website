@@ -3,6 +3,9 @@ layout: default
 title: Installation
 ---
 
+* Contents
+{:toc}
+
 Installation and Start
 ======================
 
@@ -50,3 +53,16 @@ And Then
 --------
 
 You can now [configure](/configuration/) \BlueLaTeX to your needs and then [start it](/running/).
+
+Upgrade
+=======
+
+A basic `upgrade.sh` script is provided in the binary archive.
+It will probably run correctly if you installed a previous version of \BlueLaTeX using `install.sh` without any modification.
+
+Otherwise, the steps to upgrade are:
+
+ 1. Stop the previously installed \BlueLaTeX version,
+ 3. Package the new version as described [previously](#installation-from-the-source),
+ 2. Deploy the new binaries and libraries (in `bin/` and `bundle/`) to the target installation directory,
+ 3. Make a diff between the old configuration and the new one, and adapt if necessary.
