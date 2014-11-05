@@ -295,6 +295,12 @@ blue {
     # host.
     path-prefix = ""
 
+    # if the string is empty, the link won't be rendered
+    issues-url = "https://github.com/gnieh/bluelatex/issues/new"
+
+    # if the string is empty, the link won't be rendered
+    clone-url = "https://github.com/gnieh/bluelatex/"
+
   }
 
 }
