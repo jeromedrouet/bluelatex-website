@@ -15,10 +15,10 @@ Multi-Platform Archive
 
 You can download the binary or source archive of the last stable release from one of these links.
 
- - [Version 1.0.1 Binaries .tgz](https://github.com/gnieh/bluelatex/releases/download/v1.0.1/bluelatex-1.0.1.tgz)
- - [Version 1.0.1 Binaries .zip](https://github.com/gnieh/bluelatex/releases/download/v1.0.1/bluelatex-1.0.1.zip)
- - [Version 1.0.1 Sources .tgz](https://github.com/gnieh/bluelatex/archive/v1.0.1.tar.gz)
- - [Version 1.0.1 Sources .zip](https://github.com/gnieh/bluelatex/archive/v1.0.1.zip)
+ - [Version 1.0.2 Binaries .tgz](https://github.com/gnieh/bluelatex/releases/download/v1.0.2/bluelatex-1.0.2.tgz) ([PGP](https://github.com/gnieh/bluelatex/releases/download/v1.0.2/bluelatex-1.0.2.tgz.asc), [SHA1](https://github.com/gnieh/bluelatex/releases/download/v1.0.2/bluelatex-1.0.2.tgz.sha1))
+ - [Version 1.0.2 Binaries .zip](https://github.com/gnieh/bluelatex/releases/download/v1.0.2/bluelatex-1.0.2.zip) ([PGP](https://github.com/gnieh/bluelatex/releases/download/v1.0.2/bluelatex-1.0.2.zip.asc), [SHA1](https://github.com/gnieh/bluelatex/releases/download/v1.0.2/bluelatex-1.0.2.zip.sha1))
+ - [Version 1.0.2 Sources .tgz](https://github.com/gnieh/bluelatex/archive/v1.0.2.tar.gz)
+ - [Version 1.0.2 Sources .zip](https://github.com/gnieh/bluelatex/archive/v1.0.2.zip)
 
 Other releases are avalaible [on the releases page](https://github.com/gnieh/bluelatex/releases/).
 
