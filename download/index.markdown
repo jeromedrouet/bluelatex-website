@@ -39,6 +39,12 @@ We also package \BlueLaTeX for some Linux distributions.
  - [Fedora 21 binary rpm](http://ares.ptitoliv.net/bluelatex/bluelatex-1.0.2-1.fc21.x86_64.rpm)
  - [Fedora 21 source rpm](http://ares.ptitoliv.net/bluelatex/bluelatex-1.0.2-1.fc21.src.rpm)
 
+### ![Debian logo](/images/debian.png) Debian
+
+See [this installation page](/installation/) to add repository, but if you only want packages :
+ - [Debian Wheezy .deb amd64 package](http://deb.drouet.eu/pool/main/b/bluelatex/bluelatex_1.0.3-1_amd64.deb)
+ - [Debian Wheezy .deb i386 package](http://deb.drouet.eu/pool/main/b/bluelatex/bluelatex_1.0.3-1_i386.deb)
+
 Docker Image
 ------------
 
