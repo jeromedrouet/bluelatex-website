@@ -19,10 +19,28 @@ Dependencies
  - You will also need to have access to a SMTP server to validate user registrations, so you might need to install one on your server if you do not want to use an external one,
  - Finally if you want to compile \LaTeX documents, you will need a \LaTeX distribution installed on your system. [TeX Live](https://www.tug.org/texlive/) is probably the best choice for Unix systems, and [MiKTeX](http://miktex.org/) for Windows.
 
+Installation from Debian Packages
+---------------------------------
+
+We currently provide i386 and amd64 packages for debian wheezy.
+
+To install the latest version for Debian Wheezy (7.7), run the following as root :
+```shell
+# cat << EOF > /etc/apt/sources.list.d/bluelatex-wheezy.list
+deb http://deb.drouet.eu/ bluelatex-wheezy main
+# uncomment the following line if needed
+#deb-src http://deb.drouet.eu/ bluelatex-wheezy main
+EOF
+# wget -O - http://deb.drouet.eu/repository.asc | apt-key add -
+# apt-get update
+
+# apt-get install bluelatex
+```
+
 Installation from Binary Distribution Package
 ---------------------------------------------
 
-[Download the last version](/download/) of \BlueLaTeX, and extract the archive.
+[Download the latest version](/download/) of \BlueLaTeX, and extract the archive.
 
 An installation script is provided in the distribution, simply run it as root:
 
