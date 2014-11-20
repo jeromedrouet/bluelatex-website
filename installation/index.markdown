@@ -22,7 +22,7 @@ Dependencies
 Installation from Debian Packages
 ---------------------------------
 
-We currently provide i386 and amd64 packages for debian wheezy.
+We currently provide packages for debian wheezy.
 
 To install the latest version for Debian Wheezy (7.7), run the following as root :
 ```shell
