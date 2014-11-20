@@ -25,6 +25,7 @@ Installation from Debian Packages
 We currently provide packages for debian wheezy.
 
 To install the latest version for Debian Wheezy (7.7), run the following as root :
+
 ```shell
 # cat << EOF > /etc/apt/sources.list.d/bluelatex-wheezy.list
 deb http://deb.drouet.eu/ bluelatex-wheezy main
