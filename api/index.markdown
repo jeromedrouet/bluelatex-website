@@ -81,3 +81,4 @@ You can find the description of the protocol [in this documentation](synchroniza
 * [Paper management](v1.1.x/papers-api/)
 * [Paper compilation](v1.1.x/compiler-api/)
 * [Paper synchronization](v1.1.x/sync-api/)
+* [Notifications](v1.1.x/notifications-api/)
