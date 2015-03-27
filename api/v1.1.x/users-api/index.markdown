@@ -19,6 +19,8 @@ GET    | /&lt;api&gt;/users/&lt;name&gt;/reset  | Generates a password reset tok
 POST   | /&lt;api&gt;/users/&lt;name&gt;/reset  | Performs password reset
 GET    | /&lt;api&gt;/users/&lt;name&gt;/info   | Gets the user data
 PATCH  | /&lt;api&gt;/users/&lt;name&gt;/info   | Modifies the user data
+PATCH  | /&lt;api&gt;/users/&lt;name&gt;/permissions   | Modifies the user custom permissions
+GET    | /&lt;api&gt;/users/&lt;name&gt;/permissions   | Gets permission sets available to the user
 GET    | /&lt;api&gt;/users/&lt;name&gt;/papers | Gets the list of papers shared with the user
 DELETE | /&lt;api&gt;/users/&lt;name&gt;        | Deletes the authenticated user
 
@@ -151,6 +153,60 @@ Code | Value          | Meaning | Headers
 401  | _error object_ | User must be authenticated | N/A
 403  | _error object_ | Not authorized to modify the user data | N/A
 404  | _error object_ | User does not exist | N/A
+409  | _error object_ | No revision or an obsolete revision was provided in the request | N/A
+500  | _error object_ | Something wrong happened on the server side and the action could not be performed | N/A
+
+## Get Available Permission Sets
+
+**Method:** GET
+
+**Path:** _/&lt;api&gt;/users/&lt;name&gt;/permissions_
+
+**Parameters:**
+
+Name       | Type    | Description
+---------- | ------- | -----------
+names_only | boolean | Whether to return the set of permission names **optional**. Default is **false**.
+
+**Response:**
+
+Code | Value          | Meaning | Headers
+---- | -------------- | ------- | -------
+200  | _permission object_  | The permission data | *ETag* contains the revision of the permission data (to be used when modifying them)
+500  | _error object_ | Something wrong happened on the server side | N/A
+
+The permission data object is as follows:
+
+```json
+{
+  "public": {
+    "author": ["read", "write", ...],
+    "reviewer": ["read"],
+    "guest": [],
+    "other": [],
+    "anonymous": [],
+  }
+}
+```
+
+## Modify Custom Permissions
+
+**Method:** PATCH
+
+**Path:** _/&lt;api&gt;/users/&lt;name&gt;/permissions_
+
+**Headers:** *If-Match* contains the revision of the permission data to modify (as returned in the ETag header)
+
+**Body:** A Json Patch document as per [RFC-6902](http://tools.ietf.org/html/rfc6902) that modifies the permission data. A prerequisite is that the structure of the object must not be modified, only the values of standard fields (no new fields, no mandatory field removed, ...)
+
+**Response:**
+
+Code | Value          | Meaning | Headers
+---- | -------------- | ------- | -------
+200  | _true_         | The permission data was successfully modified | *ETag* contains the new revision of the permission data after modifications were applied
+304  | _error object_ | Not enough data were sent to perform modification | N/A
+401  | _error object_ | User must be authenticated | N/A
+403  | _error object_ | Not authorized  | N/A
 409  | _error object_ | No revision or an obsolete revision was provided in the request | N/A
 500  | _error object_ | Something wrong happened on the server side and the action could not be performed | N/A
 
