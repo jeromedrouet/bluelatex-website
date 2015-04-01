@@ -72,3 +72,13 @@ You can find the description of the protocol [in this documentation](synchroniza
 * [Paper compilation](v1.0.0/compiler-api/)
 * [Paper synchronization](v1.0.0/sync-api/)
 
+## Development API Documentation
+
+**Warning**: This is a not yet stable API, things may break, change or disappear. It is mainly intended to have an overview of the future API.
+
+* [User management](v1.1.x/users-api/)
+* [Session management](v1.1.x/session-api/)
+* [Paper management](v1.1.x/papers-api/)
+* [Paper compilation](v1.1.x/compiler-api/)
+* [Paper synchronization](v1.1.x/sync-api/)
+* [Notifications](v1.1.x/notifications-api/)
