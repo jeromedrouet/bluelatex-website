@@ -43,7 +43,7 @@ We also package \BlueLaTeX for some Linux distributions.
 
 See [this installation page](/installation/) to add repository, but if you only want packages :
 
- - [Debian Wheezy .deb package](http://deb.drouet.eu/pool/main/b/bluelatex/bluelatex_1.0.4-1_all.deb)
+ - [Debian Wheezy .deb package](http://deb.drouet.eu/pool/main/b/bluelatex/bluelatex_1.0.5-1_all.deb)
 
 Docker Image
 ------------
